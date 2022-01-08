@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import MyContext from "./page/flux_1_context/FLUX_仓库";
-import TestComponent from "./Components/TestComponent";
+import TestComponent from "./Components/TestChild";
 
 // 每个仓库都会返回一个 Provider  用于接受单独想要打入的数据
 //如果没有被Provider包裹的组件 只会获取到仓库里的数据
